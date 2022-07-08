@@ -1,0 +1,148 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+header{display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    color: aliceblue;
+    width: fit-content;
+    font-size: 20;
+    text-indent: 50;}
+
+    .the-generation{font-weight: 1000;
+        font-size: 60;
+        text-transform: capitalize;
+        color: aliceblue;
+        margin: 20 20 20 20;
+    }
+
+    .p{font-weight: 1000;
+        font-size: 20;
+        text-transform: capitalize;
+        color: aliceblue;
+        font-weight: 100;
+        margin: 20 20 20 20;
+    }
+    .LINA{ margin: 0 0 0 20;
+        font-size: 30px;
+
+    }
+
+    .btn{padding: 15 40;
+        font-size: 15;
+        background-color: rgb(16, 16, 148);
+        border: none;
+        margin: 20 20 20 20;
+        height: 40;
+        border-radius: 5px;
+        align-items: center;
+        color: rgb(21, 88, 146);}
+
+        .btn:hover { background-color: transparent;}
+
+        .btn2{ padding: 15 40;
+            font-size: 15;
+            height: 40;
+            border-radius: 5px;
+            border-color: rgb(17, 69, 146);
+            background-color: transparent;
+            align-content: center;
+            color: aliceblue;
+        }
+        .btn2 :hover {background-color: hwb(215 4% 81%);}
+
+        .flex{display: flex;}
+        .mark{display: flex;
+        align-content: center;
+        justify-items: center;
+        justify-content: space-around;
+        padding: 50 50 50 50; margin: 50 50 50 50;}
+
+        body{background-image: url(https://freefrontend.com/css-background-patterns/);
+            background-color: rgb(18, 29, 80);
+        background-position: 0px;
+        background-repeat: no-repeat;
+        color: aliceblue;
+        font-size: 15px;
+        text-transform: capitalize;
+        }
+
+        .col1{ width: 200px;
+            height: 300px;
+            background-color: #07144e;
+            float: left;
+            text-align: center;
+
+        }
+
+        .col2{ width: 200px;
+            height: 300px;
+            background-color: #07144e;
+            float: left;
+            text-align: center;
+            align-items: center;
+            margin: 0 0 0 50;
+        }
+
+        .col3{ width: 200px;
+            height: 300px;
+            background-color: #07144e;
+            float: left;
+            text-align: center;
+            justify-content: space-between;
+            margin: 0 0 0 50;
+
+
+        }
+
+        .card{justify-content: space-between;
+            margin: 100 150 50 100;
+            align-items: center;
+            justify-content: center;}
+
+        .using-Lina{text-align: center;
+            color: aliceblue;}
+            .should{font-size: 30px;}
+
+            nav button {
+                padding: 10px 15px;
+                background-color: var(--main-blue);
+                color: white;
+                border-radius: 5px;
+                border: none;
+                box-shadow: 0px 0px 3px white;
+                margin-left: 20px;
+              }
+
+              .btn {
+                padding: 13px 30px;
+                color: white;
+                border: 2px solid var(--main-blue);
+                border-radius: 5px;
+                background: none;
+                cursor: pointer;
+                font-weight: bolder;}
+
+           
+            .btn-main {
+              background-color: var(--main-blue);
+              margin-right: 15px;
+            }
+            
+            .btn:hover {
+              background: var(--dark-blue);
+              border: 2px solid var(--dark-blue);
+            }
+            .btn2:hover {
+              color: var(--main-blue);
+              background: var(--light-blue);
+              border: 2px solid var(--light-blue); }
+            
+              
+.btn-wrapper {
+    display: flex;
+  }
+  .btn-main {
+    background-color: var(--main-blue);
+    margin-right: 15px;
+  }
